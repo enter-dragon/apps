@@ -93,7 +93,7 @@ jobs:
           name: Automated AppImage build - ${{ steps.tag.outputs.release_tag }}
           body: |
             Prebuild eupnea apps AppImages, intended for use with Eupnea systems.
-            [DO NOT RUN WITHOUT READING THE DISCLAIMER](https://github.com/eupnea-linux/eupnea-apps#disclaimer)
+            [DO NOT RUN WITHOUT READING THE DISCLAIMER](https://github.com/enter-dragon/eupnea-apps#disclaimer)
           files: |
             /tmp/artifacts/eupnea-settings/eupnea-settings.AppImage
             /tmp/artifacts/eupnea-setup/eupnea-setup.AppImage
